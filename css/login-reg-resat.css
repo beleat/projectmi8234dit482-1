@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* Name selector */
+body{
+    background-color:rgb(1, 63, 60); 
+   padding-bottom:10%;
+   padding-top: 5%;
+}
+/* Id selector */
+#admin-box{
+   max-width: 60%;
+    border: 2px solid;
+    margin: 5% auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+/* Combinator selector */
+#admin-box h1{
+    color:rgb(7, 223, 223);
+    font-size:35px;
+    line-height:35px ;
+    margin: 10px 0px;
+    font-family:monospace;
+    position: sticky;
+    top: 0;
+    background-color:darkolivegreen;
+    border-radius: 50%;
+    text-shadow: -5px -5px 5px;
+}
+/* Grouping selector */
+input,label{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    color: darkolivegreen;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: 350;
+}
+label[for="religion"]{
+    color: white;
+    font-size: 15px;
+}
+input{
+    background-color: transparent;
+    border: 2px solid;
+}
+/* Attribute selector */
+input[type="submit"]{
+    margin: 20px auto;
+}
+/* Psudo class selector */
+input:focus{
+background-color: wheat;
+color:rgb(14, 27, 1);
+}
+input[type="submit"]:hover{
+    background-color:chocolate;
+    color: black;
+}
+#reset:hover{
+    background-color:chocolate;
+    color: black;
+}
+/* Psudo element selector */
+input::placeholder{
+    color:white
+}
+/* Class selector */
+.pg{
+    font-size: 20px;
+    line-height: 50px;
+    font-family:'Times New Roman', Times, serif
+}
+.pg a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* For register page  */
